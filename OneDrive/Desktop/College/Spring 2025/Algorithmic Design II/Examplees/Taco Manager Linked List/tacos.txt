@@ -1,0 +1,4 @@
+asdf2	asdf2	0.5
+asdf	asdf	1.0
+asdf4	asdf	3.0
+asdf3	asdf3	5.0

@@ -1,0 +1,20 @@
+1. cocsce-l1d43-03
+sgaviria
+
+2. shell
+
+3. The location of a file
+
+4. Containts files, path, and other directories
+
+5. A collection of data in different formats
+
+6. Root directory
+
+7. pwd
+
+8. Home directory
+
+9. cd
+
+10. ls

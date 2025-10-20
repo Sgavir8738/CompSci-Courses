@@ -1,0 +1,21 @@
+github.com/Sgavir8738/.dotfiles
+
+Completing the homework was easy by following the instructions of the pdf.
+However, commiting to the repository did not work immediately because I configured the username incorrectly.
+Once I reconfigured the username to be the same as my github profile, the operation was completed sucessfully
+
+cd
+mkdir .dotfiles
+ls
+cd .dotfiles
+pwd
+nano README.md
+cat README.md
+nano .nanorc
+mv .nanorc ../
+git init
+git add --all
+git commit -m "INIT commit"
+git branch -M main
+git remote add origin git@github.com:sgavir8738/.dotfiles
+git push -u origin main

@@ -1,0 +1,9 @@
+Sebastian Gaviria
+I created a .vimrc and configured it as instructed and then copied it over using the cp command. Afterwards, I renamed it to the text file using mv
+syntax on
+set ruler
+set autoindent
+set number
+set ignorecase
+color elflord
+# CSCE_215
