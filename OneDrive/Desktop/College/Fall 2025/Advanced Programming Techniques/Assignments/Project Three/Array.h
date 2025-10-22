@@ -1,6 +1,6 @@
 void init(double *&arr, int size);
 void insert(int index, double num, double *&arr, int &size);
-void remove(int index, double *arr, int &size);
+void remove(int index, double *&arr, int &size);
 void clear(double *&arr, int &size);
 void print(double *arr, int size);
 int get(int index, double *arr, int size);

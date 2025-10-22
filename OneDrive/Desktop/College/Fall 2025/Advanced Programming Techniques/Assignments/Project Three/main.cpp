@@ -15,5 +15,11 @@ int main(int argc, char* argv[]) {
 	double *arr;
 	init(arr, size);
 	print(arr, size);
-	delete [] arr;
+	insert(3, 3, arr, size);
+	print(arr, size);
+	cout << find(5, arr, size) << endl;
+	remove(3, arr, size);
+	cout << get(size-1, arr, size) << endl;
+	print(arr, size);
+	clear(arr, size);
 }
