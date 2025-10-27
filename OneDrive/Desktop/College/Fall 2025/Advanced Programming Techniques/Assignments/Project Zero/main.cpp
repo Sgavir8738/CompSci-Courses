@@ -2,6 +2,10 @@
 
 using namespace std;
 
+/*
+    Name: Sebastian Gaviria 
+*/
+
 int main(int argc, char* argv[]) {
 
     string first;
