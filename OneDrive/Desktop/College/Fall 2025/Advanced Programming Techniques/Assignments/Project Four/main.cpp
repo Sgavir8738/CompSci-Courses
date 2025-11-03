@@ -5,8 +5,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
-    char *arr;
-    arr = new char[3];
+    char arr[3];
     arr[0] = 'c';
     arr[1] = 'a';
     arr[2] = 't';
@@ -17,8 +16,7 @@ int main(int argc, char* argv[]) {
     str.remove(2);
     cout << str.find('t') << endl;
 
-    char *newArr;
-    newArr = new char[3];
+    char newArr[3];
     newArr[0] = 'c';
     newArr[1] = 'a';
     newArr[2] = 't';
