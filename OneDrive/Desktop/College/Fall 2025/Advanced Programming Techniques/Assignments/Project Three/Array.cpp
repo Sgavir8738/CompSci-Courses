@@ -52,12 +52,12 @@ void insert(int index, double num, double *&arr, int &size) { // Add new values 
 void remove(int index, double *&arr, int &size) // Remove value at an index given within the memory allocated to the array, then shrinks it by 1
 {
 	try {
-		if (index > size + 1)
+		if (index >= size)
 		{
 			throw out_of_range("Index out of bounds");
 		}
 	}
-	catch (exception e)
+	catch (exception e)	
 	{
 		return;
 	}
