@@ -1,12 +1,27 @@
 #include <iostream>
-#include "myBasicObject.h"
+#include "myArray.h"
 
 using namespace std;
 
 int main(int argc, char* argv[]) {
 
-    myBasicObject obj1;
+    myArray arr1;
+    myArray arr2(5, 10);
+    myArray arr3(arr2);
 
-    cout << "Hello, World!" << endl;
+    cout << "Size of arr1: " << arr1.getSize() << endl;
+    cout << "Size of arr2: " << arr2.getSize() << endl;
+    cout << "Size of arr3: " << arr3.getSize() << endl;
 
+    cout << "Contents of arr1: ";
+    arr1.printArray();
+    cout << "Contents of arr2: ";
+    arr2.printArray();
+    cout << "Contents of arr3: ";
+    arr3.printArray();
+
+    arr2.setElement(2, 50);
+    cout << "Contents of arr2: ";
+    arr2.printArray();
+    arr2 * 3;
 }
