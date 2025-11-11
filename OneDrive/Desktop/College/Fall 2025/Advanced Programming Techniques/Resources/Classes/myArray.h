@@ -12,11 +12,11 @@ class myArray
         ~myArray();
 
         int getSize();
-        void printArray();
+        void printArray() const;
         void setElement(int, int);
         void copyArray(myArray&);
         void operator=(const myArray&);
-        bool operator==(const myArray&);
+        bool operator==(const myArray&) const;
         void operator*(const myArray&);
         void operator*(int);
 

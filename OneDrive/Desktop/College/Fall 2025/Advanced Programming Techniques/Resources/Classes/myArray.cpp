@@ -38,7 +38,7 @@ int myArray::getSize()
     return size;
 }
 
-void myArray::printArray()
+void myArray::printArray() const
 {
     for (int i = 0; i < size; i++)
     {
@@ -78,7 +78,7 @@ void myArray::operator=(const myArray& other)
     }
 }
 
-bool myArray::operator==(const myArray& other)
+bool myArray::operator==(const myArray& other) const
 {
     if (size != other.size)
     {
