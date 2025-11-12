@@ -33,9 +33,14 @@ void myArray::setSize(int newSize)
     size = newSize;
 }
 
-int myArray::getSize()
+int myArray::getSize() const
 {
     return size;
+}
+
+int myArray::getElement(int index) const
+{
+    return arr[index];
 }
 
 void myArray::printArray() const
@@ -45,6 +50,16 @@ void myArray::printArray() const
         cout << arr[i] << " ";
     }
     cout << endl;
+}
+
+ostream& operator<<(ostream& lhs, const myArray& rhs) 
+{
+    for (int i = 0; i < rhs.getSize(); i++)
+    {
+        lhs << rhs.getElement(i) << " ";
+    }
+    lhs << endl;
+    return lhs;
 }
 
 void myArray::setElement(int index, int value)
